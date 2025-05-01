@@ -86,7 +86,7 @@
     "scripts": []
   },
   "groups": {
-    "xxx": {
+    "default": {
       "emoji": true,
       "list": true,
       "targets": {
@@ -100,23 +100,22 @@
     }
   },
   "storage": {
-    "engine": "local",
-    "base": "",
-    "domain": "",
-    "items": {
-      "test-output": {
-        "path": "subscribe/out/test.yaml",
-        "format": "clash"
-      },
-      "crawledsubs": {
-        "username": "",
-        "folderid": "",
-        "fileid": ""
-      },
-      "crawledproxies": {
-        "username": "",
-        "folderid": "",
-        "fileid": ""
+  "engine": "file",
+  "items": {
+    "test-output": {
+      "type": "file",
+      "path": "subscribe/out/test.yaml",
+      "format": "clash"
+    },
+    "crawledsubs": {
+      "type": "file",
+      "path": "subscribe/temp/crawledsubs.yaml",
+      "format": "raw"
+    },
+    "crawledproxies": {
+      "type": "file",
+      "path": "subscribe/temp/crawledproxies.yaml",
+      "format": "raw"
       }
     }
   }
