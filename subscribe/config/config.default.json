@@ -1,176 +1,176 @@
 {
-    "domains": [
-        {
-            "name": "机场",
-            "sub": ["https://raw.githubusercontent.com/xxf098/sub/main/clash.yaml"],
-            "domain": "github.com",
-            "enable": true,
-            "rename": "",
-            "include": "",
-            "exclude": "",
-            "push_to": ["https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml"],
-            "ignorede": true,
-            "liveness": true,
-            "rate": 2.5,
-            "count": 2,
-            "coupon": "",
-            "secure": false
-                        }
-                ],
-                "plan_id": 3,
-                "package": "",
-                "method": 1,
-                "coupon_code": "",
-                "chatgpt": {
-                    "enable": false,
-                    "regex": "",
-                    "operate": "IN"
-                }
-            }
-    "crawl": {
-        "enable": true,
-        "exclude": "",
-        "threshold": 5,
-        "singlelink": true,
-        "persist": {
-            "subs": "crawledsubs",
-            "proxies": "crawledproxies"
-        },
-        "config": {
-            "rename": "",
-            "include": "",
-            "exclude": "",
-            "xxxxxxx": ""
-        },
-        "telegram": {
-            "enable": true,
-            "pages": 5,
-            "exclude": "",
-            "users": {
-                "channel": {
-                    "include": "机场,clash,订阅,v2ray,vless",
-                    "exclude": "",
-                    "config": {
-                        "rename": "TG机场源",
-                        "xxxxxx": ""
-                    },
-                    "push_to": ["https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml"]
-                }
-            }
-        },
-        "google": {
-            "enable": false,
-            "exclude": "",
-            "notinurl": [],
-            "push_to": []
-        },
-        "github": {
-            "enable": true,
-            "pages": 2,
-            "push_to": ["https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml"],
-            "exclude": "",
-            "spams": []
-        },
-        "twitter": {
-            "enable": true,
-            "users": {
-                "username": {
-                    "enable": true,
-                    "num": 30,
-                    "include": "",
-                    "exclude": "",
-                    "config": {
-                        "rename": "twitter节点",
-                        "xxxxxx": ""
-                    },
-                    "push_to": ["https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml"]
-                }
-            }
-        },
-        "repositories": [
-            {
-                "enable": false,
-                "username": "",
-                "repo_name": "",
-                "commits": 3,
-                "exclude": "",
-                "push_to": []
-            }
-        ],
-        "pages": [
-            {
-                "enable": true,
-                "url": "",
-                "include": "",
-                "exclude": "",
-                "config": {
-                    "rename": ""
-                },
-                "push_to": ["https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml"]
-            }
-        ],
-        "scripts": [
-            {
-                "enable": false,
-                "script": "file#function",
-                "params": {
-                    "persist": {
-                        "fileid": ""
-                    },
-                    "any": "xxx",
-                    "config": {
-                        "enable": true,
-                        "liveness": true,
-                        "exclude": "",
-                        "rename": "any节点",
-                        "push_to": ["https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml"]
-                    }
-                }
-            }
-        ]
-    },
-    "groups": {
-        "xxx": {
-            "emoji": true,
-            "list": true,
-            "targets": {
-                "clash": "12-clash",
-                "singbox": "23-singbox",
-                "v2ray": "45-v2ray"
-            },
-            "regularize": {
-                "enable": false,
-                "locate": true,
-                "bits": 2
-            }
-        }
-    },
-    "storage": {
-        "engine": "local",
-        "base": "https://api.github.com",
-        "domain": "https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml",
-        "items": {
-            "12-clash": {
-                "username": "",
-                "folderid": "https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out",
-                "fileid": "test.yaml"
-            },
-            "23-singbox": {
-                "fileid": "test.yaml"
-            },
-            "45-v2ray": {
-                "username": "",
-                "fileid": "test.yaml"
-            },
-            "crawledsubs": {
-                "username": "",
-                "folderid": "https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out",
-                "fileid": "test.yaml"
-            },
-            "crawledproxies": {
-                "username": "",
-                "folderid": "https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out",
-                "fileid": "test.yaml"
-            }
-        }
+  "domains": [
+    {
+      "name": "机场",
+      "sub": ["https://raw.githubusercontent.com/xxf098/sub/main/clash.yaml"],
+      "domain": "github.com",
+      "enable": true,
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "push_to": ["https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml"],
+      "ignorede": true,
+      "liveness": true,
+      "rate": 2.5,
+      "count": 2,
+      "coupon": "",
+      "secure": false
     }
+  ],
+  "plan_id": 3,
+  "package": "",
+  "method": 1,
+  "coupon_code": "",
+  "chatgpt": {
+    "enable": false,
+    "regex": "",
+    "operate": "IN"
+  },
+  "crawl": {
+    "enable": true,
+    "exclude": "",
+    "threshold": 5,
+    "singlelink": true,
+    "persist": {
+      "subs": "crawledsubs",
+      "proxies": "crawledproxies"
+    },
+    "config": {
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "xxxxxxx": ""
+    },
+    "telegram": {
+      "enable": true,
+      "pages": 5,
+      "exclude": "",
+      "users": {
+        "channel": {
+          "include": "机场,clash,订阅,v2ray,vless",
+          "exclude": "",
+          "config": {
+            "rename": "TG机场源",
+            "xxxxxx": ""
+          },
+          "push_to": ["https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml"]
+        }
+      }
+    },
+    "google": {
+      "enable": false,
+      "exclude": "",
+      "notinurl": [],
+      "push_to": []
+    },
+    "github": {
+      "enable": true,
+      "pages": 2,
+      "push_to": ["https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml"],
+      "exclude": "",
+      "spams": []
+    },
+    "twitter": {
+      "enable": true,
+      "users": {
+        "username": {
+          "enable": true,
+          "num": 30,
+          "include": "",
+          "exclude": "",
+          "config": {
+            "rename": "twitter节点",
+            "xxxxxx": ""
+          },
+          "push_to": ["https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml"]
+        }
+      }
+    },
+    "repositories": [
+      {
+        "enable": false,
+        "username": "",
+        "repo_name": "",
+        "commits": 3,
+        "exclude": "",
+        "push_to": []
+      }
+    ],
+    "pages": [
+      {
+        "enable": true,
+        "url": "",
+        "include": "",
+        "exclude": "",
+        "config": {
+          "rename": ""
+        },
+        "push_to": ["https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml"]
+      }
+    ],
+    "scripts": [
+      {
+        "enable": false,
+        "script": "file#function",
+        "params": {
+          "persist": {
+            "fileid": ""
+          },
+          "any": "xxx",
+          "config": {
+            "enable": true,
+            "liveness": true,
+            "exclude": "",
+            "rename": "any节点",
+            "push_to": ["https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml"]
+          }
+        }
+      }
+    ]
+  },
+  "groups": {
+    "xxx": {
+      "emoji": true,
+      "list": true,
+      "targets": {
+        "clash": "12-clash",
+        "singbox": "23-singbox",
+        "v2ray": "45-v2ray"
+      },
+      "regularize": {
+        "enable": false,
+        "locate": true,
+        "bits": 2
+      }
+    }
+  },
+  "storage": {
+    "engine": "local",
+    "base": "https://api.github.com",
+    "domain": "https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml",
+    "items": {
+      "12-clash": {
+        "username": "",
+        "folderid": "https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out",
+        "fileid": "test.yaml"
+      },
+      "23-singbox": {
+        "fileid": "test.yaml"
+      },
+      "45-v2ray": {
+        "username": "",
+        "fileid": "test.yaml"
+      },
+      "crawledsubs": {
+        "username": "",
+        "folderid": "https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out",
+        "fileid": "test.yaml"
+      },
+      "crawledproxies": {
+        "username": "",
+        "folderid": "https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out",
+        "fileid": "test.yaml"
+      }
+    }
+  }
+}
