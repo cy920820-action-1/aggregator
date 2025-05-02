@@ -166,7 +166,7 @@
         "base": "https://api.github.com",
         "domain": "https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml",
         "items": {
-            "xxx-clash": {
+            "12-clash": {
                 "username": "",
                 "folderid": "https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out",
                 "fileid": "test.yaml"
@@ -174,7 +174,7 @@
             "23-singbox": {
                 "fileid": "test.yaml"
             },
-            "xxx-v2ray": {
+            "45-v2ray": {
                 "username": "",
                 "fileid": "test.yaml"
             },
