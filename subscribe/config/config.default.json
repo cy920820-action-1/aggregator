@@ -9,7 +9,7 @@
       "rename": "",
       "include": "",
       "exclude": "",
-      "push_to": ["test.yaml"],  
+      "push_to": ["12-clash"],  
       "ignorede": true,
       "liveness": true,
       "rate": 2.5,
@@ -28,7 +28,7 @@
     "operate": "IN"
   },
   "crawl": {
-    "enable": true,
+    "enable": false,
     "exclude": "",
     "threshold": 5,
     "singlelink": true,
@@ -54,7 +54,7 @@
             "rename": "TG机场源",
             "xxxxxx": ""
           },
-          "push_to": ["test.yaml"]
+          "push_to": ["12-clash"]
         }
       }
     },
@@ -67,7 +67,7 @@
     "github": {
       "enable": true,
       "pages": 2,
-      "push_to": ["test.yaml"], 
+      "push_to": ["12-clash"], 
       "exclude": "",
       "spams": []
     },
@@ -83,7 +83,7 @@
             "rename": "twitter节点",
             "xxxxxx": ""
           },
-          "push_to": ["test.yaml"]
+          "push_to": ["12-clash"]
         }
       }
     },
@@ -106,7 +106,7 @@
         "config": {
           "rename": ""
         },
-        "push_to": ["test.yaml"]
+        "push_to": ["12-clash"]
       }
     ],
     "scripts": [
@@ -123,7 +123,7 @@
             "liveness": true,
             "exclude": "",
             "rename": "any节点",
-            "push_to": ["test.yaml"]
+            "push_to": ["12-clash"]
           }
         }
       }
@@ -147,13 +147,13 @@
   },
   "storage": {
     "engine": "local",
-    "base": "./",
+    "base": "",
     "domain": "",
     "items": {
       "12-clash": {
         "username": "Vicky-pip",
-        "folderid": "",
-        "fileid": "subscribe/out/test.yaml"
+        "folderid": "subscribe/out",
+        "fileid": "test.yaml"
       },
       "23-singbox": {
         "fileid": "test.yaml"
@@ -164,13 +164,13 @@
       },
       "crawledsubs": {
         "username": "Vicky-pip",
-        "folderid": "",
-        "fileid": "subscribe/out/test.yaml"
+        "folderid": "subscribe/out",
+        "fileid": "test.yaml"
       },
       "crawledproxies": {
         "username": "Vicky-pip",
-        "folderid": "",
-        "fileid": "subscribe/out/test.yaml"
+        "folderid": "subscribe/out",
+        "fileid": "test.yaml"
       }
     }
   }
