@@ -10,7 +10,7 @@
             "rename": "",
             "include": "",
             "exclude": "",
-            "push_to": [test-output],
+            "push_to": [local],
             "ignorede": true,
             "liveness": true,
             "rate": 2.5,
@@ -187,7 +187,7 @@
                 "username": "",
                 "folderid": "subscribe/out",
                 "fileid": "test.yaml"
-            }，
+            }
              "test-output": {
                 "folderid": "subscribe/out",
                 "fileid": "test.yaml"
