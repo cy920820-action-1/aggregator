@@ -5,11 +5,11 @@
       "sub": [
         "https://raw.githubusercontent.com/xxf098/sub/main/clash.yaml",
         "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml",
-        "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt"
+        "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yaml"
       ],
       "domain": "github.com",
       "enable": true,
-      "rename": "优质机场",
+      "rename": "优质节点",
       "include": "",
       "exclude": "",
       "push_to": ["test-output"],
@@ -100,22 +100,19 @@
     }
   },
   "storage": {
-  "engine": "local",
-  "items": {
-    "test-output": {
-      "type": "file",
-      "path": "subscribe/out/test.yaml",
-      "format": "clash"
-    },
-    "crawledsubs": {
-      "type": "file",
-      "path": "subscribe/temp/crawledsubs.yaml",
-      "format": "raw"
-    },
-    "crawledproxies": {
-      "type": "file",
-      "path": "subscribe/temp/crawledproxies.yaml",
-      "format": "raw"
+    "engine": "local",
+    "items": {
+      "test-output": {
+        "folderid": "subscribe/out",
+        "fileid": "test.yaml"
+      },
+      "crawledsubs": {
+        "folderid": "subscribe/temp",
+        "fileid": "crawledsubs.yaml"
+      },
+      "crawledproxies": {
+        "folderid": "subscribe/temp",
+        "fileid": "crawledproxies.yaml"
       }
     }
   }
