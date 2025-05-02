@@ -1,9 +1,7 @@
 {
-  // —— 多通道推送配置 ——  
   "push": {
     "localpush": {
       "engine": "local",
-      // 写成 GitHub Raw 的前缀，指向你的仓库 main 分支
       "domain": "https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main",
       "items": {
         "xxx-clash": {
@@ -27,8 +25,6 @@
       }
     }
   },
-
-  // —— 订阅源（Domains） ——  
   "domains": [
     {
       "name": "机场",
@@ -42,7 +38,7 @@
       "rename": "",
       "include": "",
       "exclude": "",
-      // 将解析结果推送到 localpush 通道
+
       "push_to": ["localpush"],
       "ignorede": true,
       "liveness": true,
@@ -77,13 +73,12 @@
     }
   ],
 
-  // —— 爬虫模块（Crawl） ——  
   "crawl": {
     "enable": true,
     "exclude": "",
     "threshold": 5,
     "singlelink": true,
-    // 持久化到 items 中的 crawledsubs / crawledproxies
+
     "persist": {
       "subs": "crawledsubs",
       "proxies": "crawledproxies"
@@ -190,7 +185,6 @@
     ]
   },
 
-  // —— 分组配置 ——  
   "groups": {
     "xxx": {
       "emoji": true,
