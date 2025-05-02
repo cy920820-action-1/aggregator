@@ -14,7 +14,7 @@
             "rate": 2.5,
             "count": 2,
             "coupon": "",
-            "secure": false,
+            "secure": false
                         }
                 ],
                 "plan_id": 3,
@@ -26,7 +26,7 @@
                     "regex": "",
                     "operate": "IN"
                 }
-            },
+            }
     "crawl": {
         "enable": true,
         "exclude": "",
