@@ -152,7 +152,7 @@
     "items": {
       "12-clash": {
         "username": "",
-        "folderid": "https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out",
+        "folderid": "https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml",
         "fileid": "test.yaml"
       },
       "23-singbox": {
