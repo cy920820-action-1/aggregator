@@ -1,4 +1,34 @@
 {
+  // —— 多通道推送配置 ——  
+  "push": {
+    "localpush": {
+      "engine": "local",
+      // 写成 GitHub Raw 的前缀，指向你的仓库 main 分支
+      "domain": "https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main",
+      "items": {
+        "xxx-clash": {
+          "folderid": "subscribe/out",
+          "fileid": "test.yaml"
+        },
+        "23-singbox": {
+          "fileid": "test.yaml"
+        },
+        "45-v2ray": {
+          "fileid": "test.yaml"
+        },
+        "crawledsubs": {
+          "folderid": "subscribe/out",
+          "fileid": "test.yaml"
+        },
+        "crawledproxies": {
+          "folderid": "subscribe/out",
+          "fileid": "test.yaml"
+        }
+      }
+    }
+  },
+
+  // —— 订阅源（Domains） ——  
   "domains": [
     {
       "name": "机场",
@@ -12,7 +42,8 @@
       "rename": "",
       "include": "",
       "exclude": "",
-      "push_to": ["45-v2ray"],
+      // 将解析结果推送到 localpush 通道
+      "push_to": ["localpush"],
       "ignorede": true,
       "liveness": true,
       "rate": 2.5,
@@ -45,21 +76,26 @@
       }
     }
   ],
+
+  // —— 爬虫模块（Crawl） ——  
   "crawl": {
     "enable": true,
     "exclude": "",
     "threshold": 5,
     "singlelink": true,
+    // 持久化到 items 中的 crawledsubs / crawledproxies
     "persist": {
       "subs": "crawledsubs",
       "proxies": "crawledproxies"
     },
+
     "config": {
       "rename": "",
       "include": "",
       "exclude": "",
       "xxxxxxx": ""
     },
+
     "telegram": {
       "enable": true,
       "pages": 5,
@@ -72,23 +108,26 @@
             "rename": "TG机场源",
             "xxxxxx": ""
           },
-          "push_to": ["crawledsubs", "crawledproxies"]
+          "push_to": ["localpush"]
         }
       }
     },
+
     "google": {
       "enable": false,
       "exclude": "",
       "notinurl": [],
       "push_to": []
     },
+
     "github": {
       "enable": true,
       "pages": 2,
-      "push_to": ["crawledsubs", "crawledproxies"],
       "exclude": "",
-      "spams": []
+      "spams": [],
+      "push_to": ["localpush"]
     },
+
     "twitter": {
       "enable": true,
       "users": {
@@ -101,10 +140,11 @@
             "rename": "twitter节点",
             "xxxxxx": ""
           },
-          "push_to": ["crawledsubs", "crawledproxies"]
+          "push_to": ["localpush"]
         }
       }
     },
+
     "repositories": [
       {
         "enable": false,
@@ -115,6 +155,7 @@
         "push_to": []
       }
     ],
+
     "pages": [
       {
         "enable": true,
@@ -124,9 +165,10 @@
         "config": {
           "rename": ""
         },
-        "push_to": ["crawledsubs", "crawledproxies"]
+        "push_to": ["localpush"]
       }
     ],
+
     "scripts": [
       {
         "enable": false,
@@ -141,12 +183,14 @@
             "liveness": true,
             "exclude": "",
             "rename": "any节点",
-            "push_to": ["crawledsubs", "crawledproxies"]
+            "push_to": ["localpush"]
           }
         }
       }
     ]
   },
+
+  // —— 分组配置 ——  
   "groups": {
     "xxx": {
       "emoji": true,
@@ -160,35 +204,6 @@
         "enable": false,
         "locate": true,
         "bits": 2
-      }
-    }
-  },
-  "storage": {
-    "engine": "local",
-    "base": "https://api.xxx.com",
-    "domain": "https://xxx.com",
-    "items": {
-      "xxx-clash": {
-        "username": "",
-        "folderid": "subscribe/out",
-        "fileid": "test.yaml"
-      },
-      "23-singbox": {
-        "fileid": "test.yaml"
-      },
-      "45-v2ray": {
-        "username": "",
-        "fileid": "test.yaml"
-      },
-      "crawledsubs": {
-        "username": "",
-        "folderid": "subscribe/out",
-        "fileid": "test.yaml"
-      },
-      "crawledproxies": {
-        "username": "",
-        "folderid": "subscribe/out",
-        "fileid": "test.yaml"
       }
     }
   }
