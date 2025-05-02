@@ -10,7 +10,7 @@
             "rename": "",
             "include": "",
             "exclude": "",
-            "push_to": [subscribe/out/test.yaml],
+            "push_to": [test-output],
             "ignorede": true,
             "liveness": true,
             "rate": 2.5,
@@ -70,7 +70,7 @@
                         "rename": "TG机场源",
                         "xxxxxx": ""
                     },
-                    "push_to": [subscribe/out/test.yaml]
+                    "push_to": [test-output]
                 }
             }
         },
@@ -83,7 +83,7 @@
         "github": {
             "enable": true,
             "pages": 2,
-            "push_to": [subscribe/out/test.yaml],
+            "push_to": [test-output],
             "exclude": "",
             "spams": []
         },
@@ -99,7 +99,7 @@
                         "rename": "twitter节点",
                         "xxxxxx": ""
                     },
-                    "push_to": [subscribe/out/test.yaml]
+                    "push_to": [test-output]
                 }
             }
         },
@@ -122,7 +122,7 @@
                 "config": {
                     "rename": ""
                 },
-                "push_to": [subscribe/out/test.yaml]
+                "push_to": [test-output]
             }
         ],
         "scripts": [
@@ -139,7 +139,7 @@
                         "liveness": true,
                         "exclude": "",
                         "rename": "any节点",
-                        "push_to": [subscribe/out/test.yaml]
+                        "push_to": [test-output]
                     }
                 }
             }
@@ -185,6 +185,9 @@
             },
             "crawledproxies": {
                 "username": "",
+                "folderid": "subscribe/out",
+                "fileid": "test.yaml"
+             "test-output": {
                 "folderid": "subscribe/out",
                 "fileid": "test.yaml"
             }
