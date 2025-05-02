@@ -2,13 +2,14 @@
   "domains": [
     {
       "name": "机场",
-      "sub": ["https://raw.githubusercontent.com/xxf098/sub/main/clash.yaml"],
+      "sub": ["https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml,
+               https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml"],
       "domain": "github.com",
       "enable": true,
       "rename": "",
       "include": "",
       "exclude": "",
-      "push_to": ["12-clash"],  // 修正为对应存储的 key
+      "push_to": ["12-clash"],  
       "ignorede": true,
       "liveness": true,
       "rate": 2.5,
@@ -66,8 +67,7 @@
     "github": {
       "enable": true,
       "pages": 2,
-      "token": "ghp_yourtokenhere",  // 添加 GitHub Token
-      "push_to": ["12-clash"],  // 修正为对应存储的 key
+      "push_to": ["12-clash"], 
       "exclude": "",
       "spams": []
     },
