@@ -10,7 +10,7 @@
             "rename": "",
             "include": "",
             "exclude": "",
-            "push_to": [test],
+            "push_to": [https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml],
             "ignorede": true,
             "liveness": true,
             "rate": 2.5,
