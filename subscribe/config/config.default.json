@@ -2,8 +2,8 @@
   "domains": [
     {
       "name": "机场",
-      "sub": ["https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml,
-               https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/security/tls"],
+      "sub": ["https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml",
+              "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/security/tls"],
       "domain": "github.com",
       "enable": true,
       "rename": "",
