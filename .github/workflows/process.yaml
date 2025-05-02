@@ -53,7 +53,7 @@ jobs:
       - name: Run Aggregator
         run: |
           python -u subscribe/process.py aggregate \
-            -c subscribe/config/config.default.json \
+            -s subscribe/config/config.default.json \
             -p localpush \
             --overwrite
 
