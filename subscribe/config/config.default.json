@@ -16,7 +16,6 @@
             "coupon": "",
             "secure": false,
                         }
-                    }
                 ],
                 "plan_id": 3,
                 "package": "",
@@ -27,9 +26,7 @@
                     "regex": "",
                     "operate": "IN"
                 }
-            }
-        }
-    ],
+            },
     "crawl": {
         "enable": true,
         "exclude": "",
