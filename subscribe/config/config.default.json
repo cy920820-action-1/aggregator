@@ -147,13 +147,13 @@
   },
   "storage": {
     "engine": "local",
-    "base": "https://api.github.com",
+    "base": "./",
     "domain": "",
     "items": {
       "12-clash": {
         "username": "Vicky-pip",
-        "folderid": "https://raw.githubusercontent.com/Vicky-pip/aggregator/main/subscribe/out",
-        "fileid": "test.yaml"
+        "folderid": "",
+        "fileid": "subscribe/out/test.yaml"
       },
       "23-singbox": {
         "fileid": "test.yaml"
@@ -164,13 +164,13 @@
       },
       "crawledsubs": {
         "username": "Vicky-pip",
-        "folderid": "https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out",
-        "fileid": "test.yaml"
+        "folderid": "",
+        "fileid": "subscribe/out/test.yaml"
       },
       "crawledproxies": {
         "username": "Vicky-pip",
-        "folderid": "https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out",
-        "fileid": "test.yaml"
+        "folderid": "",
+        "fileid": "subscribe/out/test.yaml"
       }
     }
   }
