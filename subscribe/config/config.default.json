@@ -187,10 +187,11 @@
                 "username": "",
                 "folderid": "subscribe/out",
                 "fileid": "test.yaml"
+                }，
              "test-output": {
                 "folderid": "subscribe/out",
                 "fileid": "test.yaml"
-            }
+            
         }
     }
 }
