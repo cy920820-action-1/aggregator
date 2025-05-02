@@ -9,7 +9,7 @@
       "rename": "",
       "include": "",
       "exclude": "",
-      "push_to": ["45-v2ray"],  
+      "push_to": ["12-clash"],  
       "ignorede": true,
       "liveness": true,
       "rate": 2.5,
@@ -54,7 +54,7 @@
             "rename": "TG机场源",
             "xxxxxx": ""
           },
-          "push_to": ["45-v2ray"]
+          "push_to": ["12-clash"]
         }
       }
     },
@@ -67,7 +67,7 @@
     "github": {
       "enable": true,
       "pages": 2,
-      "push_to": ["45-v2ray"], 
+      "push_to": ["12-clash"], 
       "exclude": "",
       "spams": []
     },
@@ -83,7 +83,7 @@
             "rename": "twitter节点",
             "xxxxxx": ""
           },
-          "push_to": ["45-v2ray"]
+          "push_to": ["12-clash"]
         }
       }
     },
@@ -106,7 +106,7 @@
         "config": {
           "rename": ""
         },
-        "push_to": ["45-v2ray"]
+        "push_to": ["12-clash"]
       }
     ],
     "scripts": [
@@ -123,7 +123,7 @@
             "liveness": true,
             "exclude": "",
             "rename": "any节点",
-            "push_to": ["45-v2ray"]
+            "push_to": ["12-clash"]
           }
         }
       }
@@ -151,8 +151,8 @@
     "domain": "https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml",
     "items": {
       "12-clash": {
-        "username": "",
-        "folderid": "https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml",
+        "username": "Vicky-pip",
+        "folderid": "https://raw.githubusercontent.com/Vicky-pip/aggregator/main/subscribe/out/test.yaml",
         "fileid": "test.yaml"
       },
       "23-singbox": {
