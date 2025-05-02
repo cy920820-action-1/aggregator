@@ -10,7 +10,7 @@
             "rename": "",
             "include": "",
             "exclude": "",
-            "push_to": [https://raw.githubusercontent.com/Vicky-pip/aggregator/refs/heads/main/subscribe/out/test.yaml],
+            "push_to": [45-v2ray],
             "ignorede": true,
             "liveness": true,
             "rate": 2.5,
@@ -174,7 +174,7 @@
             "23-singbox": {
                 "fileid": "test.yaml"
             },
-            "xxx-v2ray": {
+            "45-v2ray": {
                 "username": "",
                 "fileid": "test.yaml"
             },
@@ -185,10 +185,6 @@
             },
             "crawledproxies": {
                 "username": "",
-                "folderid": "subscribe/out",
-                "fileid": "test.yaml"
-            }
-             "test-output": {
                 "folderid": "subscribe/out",
                 "fileid": "test.yaml"
            }
