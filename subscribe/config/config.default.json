@@ -9,7 +9,7 @@
       "rename": "",
       "include": "",
       "exclude": "",
-      "push_to": ["12-clash"],  
+      "push_to": ["45-v2ray"],  
       "ignorede": true,
       "liveness": true,
       "rate": 2.5,
@@ -54,7 +54,7 @@
             "rename": "TG机场源",
             "xxxxxx": ""
           },
-          "push_to": ["12-clash"]
+          "push_to": ["45-v2ray"]
         }
       }
     },
@@ -67,7 +67,7 @@
     "github": {
       "enable": true,
       "pages": 2,
-      "push_to": ["12-clash"], 
+      "push_to": ["45-v2ray"], 
       "exclude": "",
       "spams": []
     },
@@ -83,7 +83,7 @@
             "rename": "twitter节点",
             "xxxxxx": ""
           },
-          "push_to": ["12-clash"]
+          "push_to": ["45-v2ray"]
         }
       }
     },
@@ -106,7 +106,7 @@
         "config": {
           "rename": ""
         },
-        "push_to": ["12-clash"]
+        "push_to": ["45-v2ray"]
       }
     ],
     "scripts": [
@@ -123,7 +123,7 @@
             "liveness": true,
             "exclude": "",
             "rename": "any节点",
-            "push_to": ["12-clash"]
+            "push_to": ["45-v2ray"]
           }
         }
       }
@@ -159,7 +159,7 @@
         "fileid": "test.yaml"
       },
       "45-v2ray": {
-        "username": "",
+        "username": "vicky-pip",
         "fileid": "test.yaml"
       },
       "crawledsubs": {
