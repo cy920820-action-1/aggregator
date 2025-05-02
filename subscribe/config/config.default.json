@@ -100,7 +100,7 @@
     }
   },
   "storage": {
-  "engine": "file",
+  "engine": "local",
   "items": {
     "test-output": {
       "type": "file",
