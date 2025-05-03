@@ -1,5 +1,4 @@
-{
-  "domains": [
+"domains": [
     {
       "name": "机场",
       "sub": ["https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml",
@@ -28,7 +27,7 @@
     "operate": "IN"
   },
   "crawl": {
-    "enable": false,
+    "enable": true,
     "exclude": "",
     "threshold": 5,
     "singlelink": true,
@@ -146,34 +145,31 @@
     }
   },
   "storage": {
-    "engine": "gist",
+    "engine": "local",
     "base": "",
     "domain": "",
     "items": {
       "12-clash": {
         "username": "Vicky-pip",
-        "gistid": "9dcd1af9c046a3f16c7c4b9e9cc7e94e",
-        "filename": "gclash.yaml"
+        "folderid": "subscribe/out",
+        "fileid": "test.yaml"
       },
       "23-singbox": {
-        "username": "Vicky-pip",
-        "gistid": "9dcd1af9c046a3f16c7c4b9e9cc7e94e",
-        "filename": "gclash.yaml"
+        "fileid": "test.yaml"
       },
       "45-v2ray": {
         "username": "vicky-pip",
-        "gistid": "9dcd1af9c046a3f16c7c4b9e9cc7e94e",
-        "filename": "gclash.yaml"
+        "fileid": "test.yaml"
       },
       "crawledsubs": {
-        "username": "Vicky-pip",
-        "gistid": "9dcd1af9c046a3f16c7c4b9e9cc7e94e",
-        "filename": "gclash.yaml"
+        "username": "",
+        "folderid": "subscribe/out",
+        "fileid": "test.yaml"
       },
       "crawledproxies": {
-        "username": "Vicky-pip",
-        "gistid": "9dcd1af9c046a3f16c7c4b9e9cc7e94e",
-        "filename": "gclash.yaml"
+        "username": "",
+        "folderid": "subscribe/out",
+        "fileid": "test.yaml"
       }
     }
   }
