@@ -147,40 +147,35 @@
       }
     }
   },
-  "storage": {
-    "engine": "gist",
-    "base": "https://api.github.com",
-    "domain": "https://gist.githubusercontent.com",
-    "items": {
-      "12-clash": {
-        "username": "Vicky-pip",
-        "folderid": "9dcd1af9c046a3f16c7c4b9e9cc7e94e",
-        "fileid": "gclash.yaml"
-      },
-      "23-singbox": {
-        "fileid": "gclash.yaml"
-      },
-      "45-v2ray": {
-        "username": "vicky-pip",
-        "fileid": "gclash.yaml"
-      },
-      "crawledsubs": {
-        "username": "",
-        "folderid": "subscribe/out",
-        "fileid": "gclash.yaml"
-      },
-      "crawledproxies": {
-        "username": "",
-        "folderid": "",
-        "fileid": "gclash.yaml"
-      }
+ "storage": {
+  "engine": "gist",
+  "base": "https://api.github.com",
+  "domain": "https://gist.githubusercontent.com",
+  "items": {
+    "12-clash": {
+      "username": "Vicky-pip",
+      "folderid": "9dcd1af9c046a3f16c7c4b9e9cc7e94e",
+      "fileid": "gclash.yaml"
+    },
+    "23-singbox": {
+      "username": "Vicky-pip",
+      "folderid": "9dcd1af9c046a3f16c7c4b9e9cc7e94e",
+      "fileid": "gclash.yaml"
+    },
+    "45-v2ray": {
+      "username": "Vicky-pip",
+      "folderid": "9dcd1af9c046a3f16c7c4b9e9cc7e94e",
+      "fileid": "gclash.yaml"
+    },
+    "crawledsubs": {
+      "username": "Vicky-pip",
+      "folderid": "9dcd1af9c046a3f16c7c4b9e9cc7e94e",
+      "fileid": "crawledsubs.yaml"
+    },
+    "crawledproxies": {
+      "username": "Vicky-pip",
+      "folderid": "9dcd1af9c046a3f16c7c4b9e9cc7e94e",
+      "fileid": "crawledproxies.yaml"
     }
-  },
-  "push": [
-    {
-      "name": "12-clash",
-      "type": "file",
-      "path": "gclash.yaml"
-    }
-  ]
+  }
 }
