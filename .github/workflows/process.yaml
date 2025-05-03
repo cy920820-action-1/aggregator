@@ -49,9 +49,19 @@ jobs:
 
       - name: Install
         run: pip3 install -r requirements.txt
+        
+      - name: Create output folder
+        run: mkdir -p out
 
       - name: Process
         run: python -u subscribe/process.py --overwrite
 
       - name: Timestamp
         run: date
+      - name: Commit and push output file
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/gclash.yaml
+          git commit -m "Update Clash config"
+          git push
