@@ -1,14 +1,17 @@
-"domains": [
+{
+  "domains": [
     {
       "name": "机场",
-      "sub": ["https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml",
-              "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/security/tls"],
+      "sub": [
+        "https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml",
+        "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/security/tls"
+      ],
       "domain": "github.com",
       "enable": true,
       "rename": "",
       "include": "",
       "exclude": "",
-      "push_to": ["12-clash"],  
+      "push_to": ["12-clash"],
       "ignorede": true,
       "liveness": true,
       "rate": 2.5,
@@ -66,7 +69,7 @@
     "github": {
       "enable": true,
       "pages": 2,
-      "push_to": ["12-clash"], 
+      "push_to": ["12-clash"],
       "exclude": "",
       "spams": []
     },
@@ -173,3 +176,4 @@
       }
     }
   }
+}
