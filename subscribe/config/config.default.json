@@ -148,31 +148,31 @@
     }
   },
   "storage": {
-    "engine": "local",
+    "engine": "gist",
     "base": "",
     "domain": "",
     "items": {
       "12-clash": {
         "username": "Vicky-pip",
-        "folderid": "subscribe/out",
-        "fileid": "test.yaml"
+        "folderid": "",
+        "fileid": "gclash.yaml"
       },
       "23-singbox": {
-        "fileid": "test.yaml"
+        "fileid": "gclash.yaml"
       },
       "45-v2ray": {
         "username": "vicky-pip",
-        "fileid": "test.yaml"
+        "fileid": "gclash.yaml"
       },
       "crawledsubs": {
         "username": "",
         "folderid": "subscribe/out",
-        "fileid": "test.yaml"
+        "fileid": "gclash.yaml"
       },
       "crawledproxies": {
         "username": "",
-        "folderid": "subscribe/out",
-        "fileid": "test.yaml"
+        "folderid": "",
+        "fileid": "gclash.yaml"
       }
     }
   },
@@ -180,7 +180,7 @@
     {
       "name": "12-clash",
       "type": "file",
-      "path": "out/test.yaml"
+      "path": "gclash.yaml"
     }
   ]
 }
