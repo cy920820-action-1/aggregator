@@ -157,6 +157,11 @@
         "folderid": "subscribe/out",
         "fileid": "test.yaml"
       },
+   "push": [
+    {
+      "name": "12-clash",
+      "type": "file",
+      "path": "output/gclash.yaml"
       "23-singbox": {
         "fileid": "test.yaml"
       },
