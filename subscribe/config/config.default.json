@@ -1,15 +1,14 @@
 {
   "domains": [
     {
-      "name": "",
-      "sub": [
-      ],
+      "name": "纯爬虫",
+      "sub": [],
       "domain": "",
-      "enable": true,
+      "enable": false,
       "rename": "",
       "include": "",
       "exclude": "",
-      "push_to": ["12-clash"],
+      "push_to": [],
       "ignorede": true,
       "liveness": true,
       "rate": 2.5,
@@ -48,18 +47,17 @@
       "exclude": "",
       "users": {
         "channel": {
-          "include": "",
-          "exclude": "",
+          "include": "机场,clash,订阅",
+          "exclude": "试用,免费",
           "config": {
-            "rename": "TG机场源",
-            "xxxxxx": ""
+            "rename": "TG机场源"
           },
           "push_to": ["12-clash"]
         }
       }
     },
     "google": {
-      "enable": true,
+      "enable": false,
       "exclude": "",
       "notinurl": [],
       "push_to": []
@@ -72,62 +70,12 @@
       "spams": []
     },
     "twitter": {
-      "enable": true,
-      "users": {
-        "username": {
-          "enable": true,
-          "num": 30,
-          "include": "",
-          "exclude": "",
-          "config": {
-            "rename": "twitter节点",
-            "xxxxxx": ""
-          },
-          "push_to": ["12-clash"]
-        }
-      }
+      "enable": false,
+      "users": {}
     },
-    "repositories": [
-      {
-        "enable": true,
-        "username": "",
-        "repo_name": "",
-        "commits": 3,
-        "exclude": "",
-        "push_to": []
-      }
-    ],
-    "pages": [
-      {
-        "enable": true,
-        "url": "",
-        "include": "",
-        "exclude": "",
-        "config": {
-          "rename": ""
-        },
-        "push_to": ["12-clash"]
-      }
-    ],
-    "scripts": [
-      {
-        "enable": true,
-        "script": "file#function",
-        "params": {
-          "persist": {
-            "filename": ""
-          },
-          "any": "xxx",
-          "config": {
-            "enable": true,
-            "liveness": true,
-            "exclude": "",
-            "rename": "any节点",
-            "push_to": ["12-clash"]
-          }
-        }
-      }
-    ]
+    "repositories": [],
+    "pages": [],
+    "scripts": []
   },
   "groups": {
     "12-clash": {
