@@ -1,18 +1,10 @@
 {
   "domains": [
     {
-      "name": "机场",
+      "name": "",
       "sub": [
-        "https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml",
-        "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/security/tls",
-        "https://www.vfast.life/api/v1/client/subscribe?token=101939ce059922f192b4f3478ae67aa9",
-        "https://vvs.e54.site/api/v1/client/subscribe?token=6d637ec4b05aa54e4c6f8117d3ade3aa",
-        "https://ch.vfkum.website/api/v1/client/subscribe?token=8c5d6e5c2f0db74f692bb147429ed4f6",
-        "https://ch.owokkvsxks.store/api/v1/client/subscribe?token=bb1001e0a31a501449fa6377867f654e",
-        "https://terfghtll.dashuai.us/api/v1/client/subscribe?token=59161cb28288ed418effed5f6aba6ed3",
-        "https://ch.vfkum.website/api/v1/client/subscribe?token=40f409fbe34e9a77fd2b60d797341f8a"
       ],
-      "domain": "github.com",
+      "domain": "",
       "enable": true,
       "rename": "",
       "include": "",
@@ -56,7 +48,7 @@
       "exclude": "",
       "users": {
         "channel": {
-          "include": "机场,clash,订阅,v2ray,vless",
+          "include": "",
           "exclude": "",
           "config": {
             "rename": "TG机场源",
@@ -67,7 +59,7 @@
       }
     },
     "google": {
-      "enable": false,
+      "enable": true,
       "exclude": "",
       "notinurl": [],
       "push_to": []
@@ -97,7 +89,7 @@
     },
     "repositories": [
       {
-        "enable": false,
+        "enable": true,
         "username": "",
         "repo_name": "",
         "commits": 3,
@@ -119,7 +111,7 @@
     ],
     "scripts": [
       {
-        "enable": false,
+        "enable": true,
         "script": "file#function",
         "params": {
           "persist": {
@@ -147,7 +139,7 @@
         "v2ray": "45-v2ray"
       },
       "regularize": {
-        "enable": false,
+        "enable": true,
         "locate": true,
         "bits": 2
       }
