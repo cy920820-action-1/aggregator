@@ -12,7 +12,10 @@
 > 欢迎 Star 及 PR。对于质量较高且普适的爬取目标，亦可在 Issues 中列出，将在评估后选择性添加
 
 ## 使用方法
-> 可前往 [Issue #91](https://github.com/wzdnzd/aggregator/issues/91) 食用**共享订阅**，量大质优。**请勿浪费**
+
+Clash 订阅: 
+
+<https://gist.githubusercontent.com/cy920820/6966b157a0bc80e5d67315c25f027b96/raw/804c067d34669fbae4727e3e2dc3e91e8af39881/clash.yaml>.
  
 略，自行探索。我才不会告诉你入口是 `collect.py` 和 `process.py`。**强烈建议使用后者，前者只是个小玩具**，配置参考 `subscribe/config/config.default.json`
 
