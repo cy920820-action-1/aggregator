@@ -43,12 +43,12 @@
     },
     "telegram": {
       "enable": true,
-      "pages": 5,
+      "pages": 10,
       "exclude": "",
       "users": {
         "channel": {
-          "include": "机场,clash,订阅",
-          "exclude": "试用,免费",
+          "include": "机场,clash,订阅,节点,proxy,科学上网,v2ray,vless,trojan,socks5,ssr，白嫖",
+          "exclude": "试用,免费,测试,失效,过期,广告,推广,加群",
           "config": {
             "rename": "TG机场源"
           },
@@ -64,7 +64,7 @@
     },
     "github": {
       "enable": true,
-      "pages": 2,
+      "pages": 5,
       "push_to": ["12-clash"],
       "exclude": "",
       "spams": []
