@@ -52,7 +52,7 @@
           "config": {
             "rename": "TG机场源"
           },
-          "push_to": ["12-clash"]
+          "push_to": ["45-v2ray"]
         }
       }
     },
@@ -64,8 +64,8 @@
     },
     "github": {
       "enable": true,
-      "pages": 3,
-      "push_to": ["12-clash"],
+      "pages": 4,
+      "push_to": ["45-v2ray"],
       "exclude": "",
       "spams": []
     },
@@ -100,15 +100,15 @@
     "items": {
       "12-clash": {
         "gistid": "9dcd1af9c046a3f16c7c4b9e9cc7e94e",
-        "filename": "gclash.yaml"
+        "filename": "12-clash.yaml"
       },
       "23-singbox": {
         "gistid": "9dcd1af9c046a3f16c7c4b9e9cc7e94e",
-        "filename": "gclash.yaml"
+        "filename": "23-singbox.yaml"
       },
       "45-v2ray": {
         "gistid": "9dcd1af9c046a3f16c7c4b9e9cc7e94e",
-        "filename": "gclash.yaml"
+        "filename": "45-v2ray.yaml"
       },
       "crawledsubs": {
         "gistid": "9dcd1af9c046a3f16c7c4b9e9cc7e94e",
