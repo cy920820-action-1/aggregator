@@ -8,6 +8,10 @@ on:
 env:
   # time zone
   TZ: Asia/Shanghai
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+  GH_COOKIE: ${{ secrets.GH_COOKIE }}
+  GIST_PAT: ${{ secrets.GIST_PAT }}
+  GIST_LINK: ${{ secrets.GIST_LINK }}
 
   # network proxy aggregate config
   SUBSCRIBE_CONF: ${{ secrets.SUBSCRIBE_CONF }}
